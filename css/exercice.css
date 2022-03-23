@@ -14,12 +14,33 @@
 
 
 /* 3. exercice-order-2 */
+.exercice-order-2 .container {
+  display: flex;
+  flex-direction: column;
+}
 
+.exercice-order-2 .container .element-yellow {
+  order: -1;
+}
+
+.exercice-order-2 .element {
+  width: 100%;
+}
 
 /* 4. exercice-order-3 */
+.exercice-order-3 .container {
+  display: flex;
+}
 
+.element-red {
+  order: 4;
+}
 
 /* 5. exercice-align-self-1*/
+.exercice-align-self-1 .container {
+  display:flex;
+  flex-direction: row;
+}
 
 
 /* 6. exercice-align-self-2*/
