@@ -1,7 +1,16 @@
 /* 1. exercice-flex */
-
+.exercice-flex .container {
+  display: flex;
+}
 
 /* 2. exercice-order-1 */
+.exercice-order-1 .container {
+  display: flex;
+}
+
+.element-blue {
+  order: 4;
+}
 
 
 /* 3. exercice-order-2 */
